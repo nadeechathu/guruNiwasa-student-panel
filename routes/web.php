@@ -14,5 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomeController::class, 'index'])->name('web.home');
-Route::get('/advance-home', [HomeController::class, 'advanceHome'])->name('web..advance.home');
+Route::get('/', [HomeController::class, 'index'])->name('web.home'); 
