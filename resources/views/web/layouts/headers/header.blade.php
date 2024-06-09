@@ -29,10 +29,10 @@
         </div>
         <div class="col-lg-3 col-sm-3">
             <div class="row  justify-content-end">
-                <div class="col-12 pb-1 text-end">
+                {{-- <div class="col-12 pb-1 text-end">
 
                     <p>
-                        {{-- <a href="" class="font-12 fw-bolder hvr-icon-sink-away rounded-pill border-2 text-uppercase text-purple bg-white py-2 px-4 w-100">ADVANCED VIEW  <i class="fa fa-left hvr-icon"></i></a> --}}
+
 
                         <a href="#" class="hvr-icon-forward font-12 fw-bolder   rounded-pill border-2 text-uppercase text-purple bg-white py-2 px-4  ">
                             ADVANCED VIEW
@@ -42,19 +42,39 @@
 
                     </p>
 
-                </div>
-                {{-- <div class="col-12">
+                </div> --}}
+                 <div class="col-12">
                     <div class="form-check form-switch cus-switch  ps-lg-5 ms-lg-3 ps-sm-0">
                         <div class="row align-items-end">
 
-                            <div class="col-lg-3 col-sm-5  col-3">   <input class="form-check-input font-14  w-100 pt-3 pb-2 text-uppercase text-purple ms-0" type="checkbox" id="flexSwitchCheckDefault">
+                            <div class="col-3">   <label class="form-check-label font-14 fw-bolder text-uppercase text-purple" for="flexSwitchCheckDefault">BASIC</label>
                             </div>
-                            <div class="col-7">   <label class="form-check-label font-14 fw-bolder text-uppercase text-purple" for="flexSwitchCheckDefault"> GRADE 6 O/L</label>
+
+                            <div class="col-lg-4 col-sm-5  col-3">   <input class="form-check-input font-14  w-100 pt-3 pb-2 text-uppercase text-purple ms-0" type="checkbox" id="flexSwitchCheckDefault">
+                            </div>
+                            <div class="col-3">   <label class="form-check-label font-14 fw-bolder text-uppercase text-purple" for="flexSwitchCheckDefault">ADVANCED</label>
                             </div>
                         </div>
                       </div>
-                </div> --}}
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+
+<script>
+    document.getElementById('flexSwitchCheckDefault').addEventListener('change', function () {
+      const toggleDiv = document.getElementById('advaceMenuList');
+      const toggleDiv1 = document.getElementById('basicMenuList');
+      if (this.checked) {
+        toggleDiv.classList.remove('d-none');
+        toggleDiv.classList.add('d-block');
+        toggleDiv1.classList.add('d-none');
+      } else {
+        toggleDiv.classList.remove('d-block');
+        toggleDiv.classList.add('d-none');
+        toggleDiv1.classList.remove('d-none');
+      }
+    });
+  </script>

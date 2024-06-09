@@ -19,15 +19,5 @@ class HomeController extends Controller
         }
     }
 
-    public function advanceHome()
-    {
-        try{
-
-            return view('web.home.advance_home');
-
-        }catch(\Exception $exception){
-
-            return;
-        }
-    }
+   
 }
