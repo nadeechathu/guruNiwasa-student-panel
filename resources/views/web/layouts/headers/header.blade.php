@@ -1,4 +1,4 @@
-<div class="container-fluid py-2">
+<div class="container-fluid py-2 bg-light1">
     <div class="row justify-content-end align-items-center">
         <div class="col-lg-4 text-lg-end text-center">
 
@@ -28,22 +28,9 @@
             </h1>
         </div>
         <div class="col-lg-3 col-sm-3">
-            <div class="row  justify-content-end">
-                {{-- <div class="col-12 pb-1 text-end">
-
-                    <p>
-
-
-                        <a href="#" class="hvr-icon-forward font-12 fw-bolder   rounded-pill border-2 text-uppercase text-purple bg-white py-2 px-4  ">
-                            ADVANCED VIEW
-
-                            <i class="fa-solid fa-angles-right hvr-icon"></i>
-                        </a>
-
-                    </p>
-
-                </div> --}}
-                 <div class="col-12">
+            <div class="row  justify-content-end float-lg-end">
+               
+                 <div class="col-12 pe-lg-5 pt-lg-0 pt-3">
                     <div class="form-check form-switch cus-switch  ps-lg-5 ms-lg-3 ps-sm-0">
                         <div class="row align-items-end">
 
