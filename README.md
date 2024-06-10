@@ -1,2 +1,2 @@
 # guruNiwasa-student-panel
-Initial stage
+jenkinks setup
