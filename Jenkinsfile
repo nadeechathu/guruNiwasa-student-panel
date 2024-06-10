@@ -16,7 +16,7 @@ pipeline {
             steps {
                 script {
                     // Use ssh-agent to handle the SSH key
-                    sshagent(credentials: ['GEEKMAC']) {
+                    sshagent(['GEEKMAC']) {
                         sh 'ssh-add -l'  // List loaded SSH keys to verify
                     }
                 }
@@ -26,7 +26,7 @@ pipeline {
         stage('Deploy website via SSH') {
             steps {
                 script {
-                    sshagent(credentials: ['GEEKMAC']) {
+                    sshagent(['GEEKMAC']) {
                         // Deploy files via scp and create timestamp file via ssh
                         sh '''
                             scp -o StrictHostKeyChecking=no -r ./* root@52.221.10.55:/www/wwwroot/geekmac.work.gd
