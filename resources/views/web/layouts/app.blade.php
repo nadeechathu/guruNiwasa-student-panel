@@ -25,4 +25,21 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
    </body>
 
+   
+<script>
+    document.getElementById('flexSwitchCheckDefault').addEventListener('change', function () {
+      const toggleDiv = document.getElementById('advaceMenuList');
+      const toggleDiv1 = document.getElementById('basicMenuList');
+      if (this.checked) {
+        toggleDiv.classList.remove('d-none');
+        toggleDiv.classList.add('d-block');
+        toggleDiv1.classList.add('d-none');
+      } else {
+        toggleDiv.classList.remove('d-block');
+        toggleDiv.classList.add('d-none');
+        toggleDiv1.classList.remove('d-none');
+      }
+    });
+  </script>
+
 </html>

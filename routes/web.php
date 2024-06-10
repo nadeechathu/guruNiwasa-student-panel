@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Web\Home\HomeController;
+use App\Http\Controllers\Web\ClassController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,3 +16,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('web.home'); 
+
+
+// LIVE CLASSES
+Route::get('/class/view', [ClassController::class, 'classView'])->name('web.class.view'); 
+
+
+
+
+
+
