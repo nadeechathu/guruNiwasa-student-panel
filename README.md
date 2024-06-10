@@ -1,2 +1,2 @@
 # guruNiwasa-student-panel
-jenkinks setup
+jenkinks setup done
