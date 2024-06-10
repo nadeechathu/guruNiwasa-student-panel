@@ -256,8 +256,8 @@
                      <i class="fa-solid fa-chalkboard-user fs-3 text-white"></i>
                   </div>
                   <div class="col-10 py-1 ps-4">
-                     <p class="font-13 text-white fw-500">Teachers &   New Subjects</p>
-                     <p class="font-13 text-white fw-500">Teachers &   New Subjects</p>
+                     <p class="font-13 text-white fw-500">Teachers & New Subjects</p>
+                     <p class="font-13 text-white fw-500">Teachers & New Subjects</p>
                   </div>
                </div>
             </a>
@@ -294,7 +294,6 @@
             <a href="" class="hvr-shrink w-100">
                <div class="row align-items-center gradient-background-1 py-3 justify-content-around rounded-35 w-100">
                   <div class="col-1  py-1">
-
                      <i class="fa-regular fa-comment  fs-3 text-white"></i>
                   </div>
                   <div class="col-10 py-1 ps-4">
