@@ -14,12 +14,9 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', [HomeController::class, 'index'])->name('web.home'); 
-
-
+Route::get('/', [HomeController::class, 'index'])->name('web.home');
 // LIVE CLASSES
-Route::get('/class/view', [ClassController::class, 'classView'])->name('web.class.view'); 
+Route::get('/class/view', [ClassController::class, 'classView'])->name('web.class.view');
 
 
 
