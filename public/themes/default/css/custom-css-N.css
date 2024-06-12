@@ -3,7 +3,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(/themes/default/img/home-bg.jpg);
+    background-color: #d3d4d6;
 }
 /* .footer-section
 {
@@ -184,6 +184,8 @@ a:hover,
 .rounded-35{
     border-radius: 50px;
 }
+
+
 .logo-footer
 {
     margin-bottom: -2em;
@@ -191,6 +193,13 @@ a:hover,
 .border-new
  {
     border: 10px solid #80199f;
+ }
+
+ .border-new1
+ {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+
+
  }
 .btn-cus{
 

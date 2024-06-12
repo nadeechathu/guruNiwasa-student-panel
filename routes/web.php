@@ -18,6 +18,10 @@ Route::get('/', [HomeController::class, 'index'])->name('web.home');
 // LIVE CLASSES
 Route::get('/class/view', [ClassController::class, 'classView'])->name('web.class.view');
 
+// Video Recordings
+Route::get('/video/view', [ClassController::class, 'classView'])->name('web.class.view');
+
+
 
 
 
