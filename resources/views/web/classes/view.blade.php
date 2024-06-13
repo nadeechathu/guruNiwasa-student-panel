@@ -17,7 +17,7 @@
    </div>
 </div>
 <div class="container-fluid py-lg-5 py-3 px-lg-5 ">
-   <div class="row">
+   <div class="row middle-hight">
       <div  class="col-lg-3 col-sm-4 mb-3 align-items-center">
          <div class="border-new pt-3 pb-5 px-3 rounded-35 bg-white text-center">
             <h3 class="font-20 fw-bold pb-2">8.00 - 10.00 PM
